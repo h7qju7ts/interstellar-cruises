@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    background: url(../images/interstellar-cruises-backgrownd.webp) no-repeat center center/cover;
+    /* used small pic and increased in size for visual effect */
+    background-size: 200%;
+   
+}
