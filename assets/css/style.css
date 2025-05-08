@@ -1,7 +1,37 @@
-body {
-    display: flex;
-    background: url(../images/interstellar-cruises-backgrownd.webp) no-repeat center center/cover;
-    /* used small pic and increased in size for visual effect */
-    background-size: 200%;
-   
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* C S S Variables */
+:root {
+    --primary-font: "Audiowide", cursive;
+    --primary-color: #032c5a;
 }
+
+#header h1 {
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    color:var(--primary-color);
+    
+    
+
+    
+}
+
+
+
+
+/* Borders for visualisation */
+
+
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
+
+/* Media querries */
