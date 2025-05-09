@@ -14,11 +14,18 @@
     text-transform: uppercase;
     font-family: var(--primary-font);
     color:var(--primary-color);
-    
-    
+    margin-top: 4rem;
+   }
+   /* Navbar */
 
-    
+#navbar {
+    background-color: var(--primary-color);
 }
+
+#navbar .logo {
+    width: 30px;
+}
+
 /* Footer section */
 .social-links {
     display: flex;
