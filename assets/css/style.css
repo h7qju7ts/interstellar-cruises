@@ -75,3 +75,13 @@
 } */
 
 /* Media querries */
+/* Media queries for large screens (pp2px and above) */
+@media screen and (min-width:992px) {
+   #adventure {
+  margin-right: 4rem;
+  margin-top:8rem;
+}
+#adventure h1 {
+    font-size: 55px;
+}
+}
