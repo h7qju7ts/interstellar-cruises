@@ -26,6 +26,16 @@
     width: 30px;
 }
 
+/* Aquaterra section */
+.aqua-para {
+    
+}
+
+/* hidden h2 */
+#aquaterra h2 {
+    display: none;
+}
+
 /* Footer section */
 .social-links {
     display: flex;
