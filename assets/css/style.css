@@ -26,6 +26,7 @@
     width: 30px;
 }
 
+
 /* Aquaterra section */
 .aqua-para {
     text-align: center;
@@ -85,7 +86,7 @@
 } */
 
 /* Media querries */
-/* Media queries for large screens (pp2px and above) */
+/* Media queries for large screens (992px and above) */
 @media screen and (min-width:992px) {
    #adventure {
   margin-right: 4rem;
@@ -93,5 +94,34 @@
 }
 #adventure h1 {
     font-size: 55px;
+}
+/* Destinations Section */
+#destinations {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+#destinations .card-footer {
+    margin-bottom: auto;
+}
+}
+/* Media queries for large screens (1280px and above) */
+@media screen and (min-width:1280px) {
+   #adventure {
+  margin-right: 4rem;
+  margin-top:8rem;
+  align-items: center;
+}
+#adventure h1 {
+    font-size: 55px;
+}
+/* Destinations Section */
+#destinations .row {
+    display: flex;
+    align-items: stretch;
+    
+}
+#destinations h2 {
+   
 }
 }
