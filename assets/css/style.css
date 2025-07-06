@@ -67,7 +67,15 @@
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
-
+#destination-dropdown {
+    width: 25rem;
+    color:white;
+    background-color: blue;
+    
+    text-align: center;
+    font-weight: bold; 
+    
+}
 
 
 
@@ -121,7 +129,5 @@
     align-items: stretch;
     
 }
-#destinations h2 {
-   
-}
+
 }
