@@ -25,6 +25,10 @@
 #navbar .logo {
     width: 30px;
 }
+body {
+    max-width: 100%;
+  
+}
 
 
 /* Aquaterra section */
@@ -94,9 +98,18 @@
 } */
 
 /* Media querries */
+/* media querries for small screens (344px ) */
+@media screen and (min-width:340px) {
+    body {
+        max-width: 100%;
+
+    }
+}
+
 /* Media queries for large screens (992px and above) */
 @media screen and (min-width:992px) {
    #adventure {
+    
   margin-right: 4rem;
   margin-top:8rem;
 }
