@@ -48,12 +48,12 @@ body {
 }
 #contact {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--highlight-color-light);
     padding-bottom: 3rem;
 }
 
 #contact h2 {
-    color: white;
+    color:var(--highlight-color-light);
 }
 
 #contact .sub-heading-color {
@@ -71,14 +71,22 @@ body {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
+/* booking section */
+/* drop down button */
+.dropdown {
+    
+    
+    width: 385px;
+}
 #destination-dropdown {
-    width: 25rem;
+    /* max-width: fit-content; */
+    margin: 10px 0 20px 0;
+    max-width: 100%;
     color:white;
     background-color: blue;
-    
     text-align: center;
     font-weight: bold; 
-    
 }
 
 
@@ -100,47 +108,23 @@ body {
 /* Media querries */
 /* media querries for small screens (344px ) */
 @media screen and (min-width:340px) {
-    body {
-        max-width: 100%;
-
-    }
+    
+}
+/* Media queries for medium screens (768px and above) */
+@media screen and (min-width:768px) {
+  
 }
 
 /* Media queries for large screens (992px and above) */
 @media screen and (min-width:992px) {
-   #adventure {
-    
-  margin-right: 4rem;
-  margin-top:8rem;
-}
-#adventure h1 {
-    font-size: 55px;
-}
-/* Destinations Section */
-#destinations {
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
-}
-#destinations .card-footer {
-    margin-bottom: auto;
-}
+   
 }
 /* Media queries for large screens (1280px and above) */
 @media screen and (min-width:1280px) {
-   #adventure {
-  margin-right: 4rem;
-  margin-top:8rem;
-  align-items: center;
-}
-#adventure h1 {
-    font-size: 55px;
-}
-/* Destinations Section */
-#destinations .row {
-    display: flex;
-    align-items: stretch;
-    
-}
+    h1 , p {
+        min-width: 100%;
+    }
+  
+
 
 }
