@@ -106,14 +106,18 @@ body {
 
 /* Media querries */
 /* media querries for small screens (344px ) */
+
+
 @media screen and (min-width:340px) {
-     .carousel-intro-paragraph {
+
+.lead {
+    font-weight: 300;
+}    
+.carousel-intro-paragraph {
     text-align: center;
     margin-top: 2rem ;
     font-size: 1rem;
-    
-    
-}
+ }
 .bottom-paragraph {
     text-align: center;
     margin: 2rem 0.5rem 0.5rem 0.5rem;
@@ -121,21 +125,24 @@ body {
     padding: 0 1rem 0 1rem;
     font-style: italic;
 }
+.location-intro{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
   
 
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
-     .carousel-intro-paragraph {
+.carousel-intro-paragraph {
     text-align: center;
     margin-top: 2rem ;
     margin-left: 2rem;
     padding-right: 2rem;
     
 }
-.aquaterra-carousel {
-    padding: 0 1rem 0 1rem;
-}
+
 
 .bottom-paragraph {
     text-align: center;
