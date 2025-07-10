@@ -15,6 +15,7 @@
     font-family: var(--primary-font);
     color:var(--primary-color);
     margin-top: 4rem;
+    text-align: center;
    }
    /* Navbar */
 
@@ -32,9 +33,7 @@ body {
 
 
 /* Aquaterra section */
-.aqua-para {
-    text-align: center;
-}
+
 
 /* hidden h2 */
 #aquaterra h2 {
@@ -108,22 +107,91 @@ body {
 /* Media querries */
 /* media querries for small screens (344px ) */
 @media screen and (min-width:340px) {
+     .carousel-intro-paragraph {
+    text-align: center;
+    margin-top: 2rem ;
+    font-size: 1rem;
     
+    
+}
+.bottom-paragraph {
+    text-align: center;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+    font-style: italic;
+}
+  
+
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
-  
+     .carousel-intro-paragraph {
+    text-align: center;
+    margin-top: 2rem ;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.aquaterra-carousel {
+    padding: 0 1rem 0 1rem;
+}
+
+.bottom-paragraph {
+    text-align: center;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    padding: 0 2rem 0 2rem;
+}
 }
 
 /* Media queries for large screens (992px and above) */
 @media screen and (min-width:992px) {
-   
+   /* aqua terra section */
+    
+    .aqua-para {
+    text-align: center;
+    margin-top: 2rem ;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+#aqua-bottom-para {
+    text-align: center;
+    margin: 10rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    padding: 0 2rem 0 2rem;
+}
+  
 }
 /* Media queries for large screens (1280px and above) */
 @media screen and (min-width:1280px) {
     h1 , p {
         min-width: 100%;
     }
+    /* aqaterra section */
+    .aqua-para {
+    text-align: center;
+    margin-top: 17rem ;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    
+}
+#aquaterra-carousel {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    padding-right: 1rem;
+}
+.bottom-paragraph {
+    text-align: center;
+    margin: 10rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    padding: 0 2rem 0 2rem;
+}
   
 
 
