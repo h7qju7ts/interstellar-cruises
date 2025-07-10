@@ -163,49 +163,51 @@ body {
 @media screen and (min-width:992px) {
    /* aqua terra section */
     
-    .aqua-para {
+.carousel-intro-paragraph {
     text-align: center;
     margin-top: 2rem ;
-    margin-left: 2rem;
     padding-right: 2rem;
+    font-size: 1rem;
+    justify-content: center;
     
 }
 
-#aqua-bottom-para {
+.bottom-paragraph {
     text-align: center;
-    margin: 10rem 2rem 2rem 2rem;
-    padding: 2rem 2rem 2rem 2rem;
-    font-size: 1.2rem;
-    padding: 0 2rem 0 2rem;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    font-style: italic;
 }
   
 }
 /* Media queries for large screens (1280px and above) */
 @media screen and (min-width:1280px) {
-    h1 , p {
-        min-width: 100%;
-    }
-    /* aqaterra section */
-    .aqua-para {
+    
+.carousel {
+    margin-top: 3rem;
+    align-items: end;
+}
+.carousel-intro-paragraph {
     text-align: center;
     margin-top: 17rem ;
     margin-left: 2rem;
     padding-right: 2rem;
     
 }
-#aquaterra-carousel {
-    margin-right: 1rem;
-    margin-top: 2rem;
-    padding-right: 1rem;
-}
+
+
 .bottom-paragraph {
     text-align: center;
-    margin: 10rem 2rem 2rem 2rem;
-    padding: 2rem 2rem 2rem 2rem;
-    font-size: 1.2rem;
-    padding: 0 2rem 0 2rem;
+    margin: 5rem 2rem 2rem 2rem;
+     font-size: 1.2rem;
+    
 }
-  
+#contact-info {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
 
 
 }
