@@ -186,7 +186,7 @@ body {
     
 .carousel {
     margin-top: 3rem;
-    align-items: end;
+    
 }
 .carousel-intro-paragraph {
     text-align: center;
@@ -204,8 +204,9 @@ body {
     
 }
 #contact-info {
-    margin-top: 1.5rem;
-    font-size: 1rem;
+    margin-top: 2.5rem;
+    font-size:1.5rem;
+    margin-right: 12rem;
 }
 
 
