@@ -117,6 +117,7 @@ body {
     text-align: center;
     margin-top: 2rem ;
     font-size: 1rem;
+    padding: 0 1rem 0 1rem;
  }
 .bottom-paragraph {
     text-align: center;
@@ -135,23 +136,28 @@ body {
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
+    
 .carousel-intro-paragraph {
     text-align: center;
     margin-top: 2rem ;
-    margin-left: 2rem;
     padding-right: 2rem;
-    
-}
-
-
+    font-size: 1rem;
+ }
 .bottom-paragraph {
     text-align: center;
-    margin: 2rem 2rem 2rem 2rem;
-    padding: 2rem 2rem 2rem 2rem;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    font-style: italic;
+}
+.location-intro{
+    text-align: center;
+    font-style: italic;
     font-size: 1.2rem;
-    padding: 0 2rem 0 2rem;
+    padding-right: 1.5rem;
 }
 }
+
 
 /* Media queries for large screens (992px and above) */
 @media screen and (min-width:992px) {
