@@ -139,6 +139,7 @@ body {
     font-style: italic;
     font-size: 1.2rem;
 }
+/* carousel resizing  and paragraph rearranging*/
 #aquaterra-hotel-carousel-paragraph {
     margin-right: 1.5rem;
     padding-right: 1.5rem;
@@ -157,6 +158,12 @@ body {
     width: 344px;
     height: 344px;
 }
+
+
+#zephyria-hotel-carousel-intro-paragraph {
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+}
 #zephyria-hotel-carousel {
     width: 344px;
     height: 344px;
@@ -173,6 +180,10 @@ body {
     width: 344px;
     height: 344px;
 }
+#verdantia-hotel-carousel-intro-paragraph {
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+}
 #verdantia-hotel-carousel {
     width: 344px;
     height: 344px;
@@ -188,6 +199,11 @@ body {
 #verdantia-quisine-carousel {
     width: 344px;
     height: 344px;        
+}
+#zephyria-bottom-paragraph{
+    margin-left: 2rem;
+}
+
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
