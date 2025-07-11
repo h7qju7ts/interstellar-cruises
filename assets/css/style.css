@@ -109,6 +109,14 @@ body {
 
 
 @media screen and (min-width:340px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        
+        
+    }
 
 .lead {
     font-weight: 300;
@@ -131,8 +139,17 @@ body {
     font-style: italic;
     font-size: 1.2rem;
 }
+#aquaterra-quisine-carousel {
+    width: 128%;
+}
+#aquaterra-safari-carousel {
+    width: 120%;
   
 
+}
+#aquaterra-snorkeling-carousel {
+    width: 110%;
+}
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
