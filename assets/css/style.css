@@ -157,6 +157,37 @@ body {
     width: 344px;
     height: 344px;
 }
+#zephyria-hotel-carousel {
+    width: 344px;
+    height: 344px;
+}
+#zephyria-activities-carousel {
+    width: 344px;
+    height: 344px;
+}
+#zephyria-indoor-carousel {
+    width: 344px;
+    height: 344px;
+}
+#zephyria-quisine-carousel {
+    width: 344px;
+    height: 344px;
+}
+#verdantia-hotel-carousel {
+    width: 344px;
+    height: 344px;
+}
+#verdantia-trek-carousel {
+    width: 344px;
+    height: 344px;
+}
+#verdantia-canopy-carousel {
+    width: 344px;
+    height: 344px;
+}
+#verdantia-quisine-carousel {
+    width: 344px;
+    height: 344px;        
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
