@@ -125,13 +125,13 @@ body {
     text-align: center;
     margin-top: 2rem ;
     font-size: 1rem;
-    padding: 0 1rem 0 1rem;
+    padding: 0 0 0 2rem;
  }
 .bottom-paragraph {
     text-align: center;
-    margin: 2rem 0.5rem 0.5rem 0.5rem;
-    font-size: 1.5rem;
-    padding: 0 1rem 0 1rem;
+    margin: 2rem 0 0 3rem;
+    font-size: 1rem;
+    
     font-style: italic;
 }
 .location-intro{
@@ -139,16 +139,23 @@ body {
     font-style: italic;
     font-size: 1.2rem;
 }
+#aquaterra-hotel-carousel-paragraph {
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+}
 #aquaterra-quisine-carousel {
-    width: 128%;
+    width: 344px;
+    height: 344px;
 }
 #aquaterra-safari-carousel {
-    width: 120%;
+    width: 344px;
+    height: 344px;
   
 
 }
 #aquaterra-snorkeling-carousel {
-    width: 110%;
+    width: 344px;
+    height: 344px;
 }
 }
 /* Media queries for medium screens (768px and above) */
