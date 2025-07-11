@@ -108,28 +108,23 @@ body {
 /* media querries for small screens (344px ) */
 
 
-@media screen and (min-width:340px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow-x: hidden;
-        
-        
-    }
-
-.lead {
-    font-weight: 300;
-}    
+@media screen and (min-width:342px) {
+ .main {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   overflow-x: hidden;
+}
 .carousel-intro-paragraph {
     text-align: center;
     margin-top: 2rem ;
     font-size: 1rem;
-    padding: 0 0 0 2rem;
+    
  }
 .bottom-paragraph {
     text-align: center;
-    margin: 2rem 0 0 3rem;
+    margin: 2rem 0 0 0;
     font-size: 1rem;
     
     font-style: italic;
@@ -139,74 +134,27 @@ body {
     font-style: italic;
     font-size: 1.2rem;
 }
-/* carousel resizing  and paragraph rearranging*/
-#aquaterra-hotel-carousel-paragraph {
-    margin-right: 1.5rem;
-    padding-right: 1.5rem;
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 3rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
-#aquaterra-quisine-carousel {
-    width: 344px;
-    height: 344px;
-}
-#aquaterra-safari-carousel {
-    width: 344px;
-    height: 344px;
-  
-
-}
-#aquaterra-snorkeling-carousel {
-    width: 344px;
-    height: 344px;
-}
-
-
-#zephyria-hotel-carousel-intro-paragraph {
-    margin-right: 1.5rem;
-    padding-right: 1.5rem;
-}
-#zephyria-hotel-carousel {
-    width: 344px;
-    height: 344px;
-}
-#zephyria-activities-carousel {
-    width: 344px;
-    height: 344px;
-}
-#zephyria-indoor-carousel {
-    width: 344px;
-    height: 344px;
-}
-#zephyria-quisine-carousel {
-    width: 344px;
-    height: 344px;
-}
-#verdantia-hotel-carousel-intro-paragraph {
-    margin-right: 1.5rem;
-    padding-right: 1.5rem;
-}
-#verdantia-hotel-carousel {
-    width: 344px;
-    height: 344px;
-}
-#verdantia-trek-carousel {
-    width: 344px;
-    height: 344px;
-}
-#verdantia-canopy-carousel {
-    width: 344px;
-    height: 344px;
-}
-#verdantia-quisine-carousel {
-    width: 344px;
-    height: 344px;        
-}
-#zephyria-bottom-paragraph{
-    margin-left: 2rem;
+#contact .social-links i:hover {
+    color: var(--secondary-color);
 }
 
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
     
 .carousel-intro-paragraph {
     text-align: center;
