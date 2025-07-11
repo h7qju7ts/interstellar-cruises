@@ -115,6 +115,7 @@ body {
    flex-direction: column;
    align-items: center;
    overflow-x: hidden;
+   /* padding-right: -2rem; */
 }
 .carousel-intro-paragraph {
     text-align: center;
