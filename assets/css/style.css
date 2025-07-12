@@ -32,13 +32,30 @@ body {
 }
 
 
+/* Bookings section */
+#bookings-form {
+    font-weight: 450;
+}
+
+#bookings-form  h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#bookings-submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
 
 
 
-/* hidden h2 */
-/* #aquaterra h2 {
-    display: none;
-} */
 
 /* Footer section */
 .social-links {
@@ -73,20 +90,20 @@ body {
 
 /* booking section */
 /* drop down button */
-.dropdown {
+/* .dropdown {
     
     
     width: 385px;
 }
 #destination-dropdown {
-    /* max-width: fit-content; */
+    max-width: fit-content;
     margin: 10px 0 20px 0;
     max-width: 100%;
     color:white;
     background-color: blue;
     text-align: center;
     font-weight: bold; 
-}
+} */
 
 
 
