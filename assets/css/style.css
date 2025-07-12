@@ -164,13 +164,17 @@ body {
 }
 /* bookings section */
 #destinations {
-    max-width: fit-content;
-    margin: 10px 0 20px 0;
-    max-width: 100%;
     
-    text-align: center;
-   
-
+    display: flex;
+    max-width: 100%;
+    margin: 10px 0 20px 0;
+    
+ }
+ .destination-form-select {
+    text-align: left;
+    text-size-adjust: 0.1rem;
+    
+ }
 }
 /* Media queries for medium screens (768px and above) */
 @media screen and (min-width:768px) {
