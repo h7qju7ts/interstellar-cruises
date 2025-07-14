@@ -185,6 +185,12 @@ body {
   flex-grow: 1; /* This is the key! Makes the main content area grow
                    to take up all available space between the header and footer */
 }
+#success-p {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
 
 }
 /* Media queries for medium screens (768px and above) */
@@ -195,6 +201,11 @@ body {
     align-items: center;
     width: 100%;
    
+}
+#success-p {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 1.5rem;
 }
     
 .carousel-intro-paragraph {
