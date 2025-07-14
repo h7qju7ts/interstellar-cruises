@@ -172,10 +172,7 @@ section h2 {
     text-transform: uppercase;
 }
 
-/*  code to push the footer to the bottom of the page  (ASKED AI FOR HELP)*/
-html, body {
-  height: 100%; /* Ensure html and body take up full viewport height */
-  margin: 0; /* Remove default body margin */
+
 }
 body {
   display: flex; /* Enable Flexbox on the body */
@@ -187,7 +184,7 @@ body {
 }
 #success-p {
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
