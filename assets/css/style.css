@@ -173,7 +173,7 @@ section h2 {
 }
 
 
-}
+
 body {
   display: flex; /* Enable Flexbox on the body */
   flex-direction: column; /* Arrange children vertically */
