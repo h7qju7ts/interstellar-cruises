@@ -55,13 +55,13 @@
         </div>
     </nav>
     </header>
-    <main class="main">
+    <main>
        <!-- Booking inquiry form section -->
-        <section id="bookings-form" class="container section">
+        <section class="container section">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-8 col-smm-6">
                     <h2>Booking inquiry</h2>
-                    <form action="success.html" method="GET">
+                    <form id="bookings-form" action="success.html" method="GET">
                         <div class="row">
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
@@ -77,20 +77,20 @@
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="destinations" class="form-label">Destinations</label>
-                                <select id="destinations" class="form-select" name="destinations" required>
-                                    <option class="destination-form-select" value="" selected>Select</option>
-                                    <option class="destination-form-select" value="aquaterra">Aquaterra</option>
-                                    <option class="destination-form-select" value="verdantia">Verdantia</option>
-                                    <option class="destination-form-select" value="zephyria">Zephyria</option>
+                                <select class="form-select" size="3" aria-label="Destinations">
+                                   <option selected>Select</option>
+                                   <option value="aquaterra">Aquaterra</option>
+                                   <option value="verdantia">Verdantia</option>
+                                   <option value="zephyria">Zephyria</option>
                                 </select>
                             </div>
                         </div>
-                      
+                      <button type="submit" class="btn  mb-4">Book inquiry</button>
                     </form>
                 </div>
             </div>
         </section>
-        <button id="bookings-submit-btn" type="submit" class="btn col-sm-12 mb-4">Book inquiry</button>
+        
     </main>
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
