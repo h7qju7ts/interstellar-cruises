@@ -159,8 +159,6 @@ section h2 {
 #destinations {
     font-size: 1rem;
     display: flex;
-   
-    
  }
  .form-select {
     text-align: left;
@@ -172,6 +170,20 @@ section h2 {
     color: white;
     background-color: var(--primary-color);
     text-transform: uppercase;
+}
+
+/*  code to push the footer to the bottom of the page  (ASKED AI FOR HELP)*/
+html, body {
+  height: 100%; /* Ensure html and body take up full viewport height */
+  margin: 0; /* Remove default body margin */
+}
+body {
+  display: flex; /* Enable Flexbox on the body */
+  flex-direction: column; /* Arrange children vertically */
+}
+.site-content {
+  flex-grow: 1; /* This is the key! Makes the main content area grow
+                   to take up all available space between the header and footer */
 }
 
 }
