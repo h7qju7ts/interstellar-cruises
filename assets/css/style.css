@@ -225,6 +225,23 @@ body {
     margin-bottom: 15.5rem;
    
 }
+.card {
+  display: flex;
+  flex-direction: column; /* vertical layout */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* vertical layout */
+  flex-grow: 1; /* takes all available vertical space */
+}
+
+.card-footer {
+  background: transparent; /* remove default grey if you like */
+  border-top: none;        /*optional: remove top border */
+  margin-top: auto; /* pushes footer to bottom of card */
+}
+
 #success-p {
     text-align: center;
     margin-top: 10rem;
@@ -239,7 +256,7 @@ body {
  }
 .bottom-paragraph {
     text-align: center;
-    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    margin: 10rem 0.5rem 0.5rem 0.5rem;
     font-size: 1.5rem;
    
     font-style: italic;
