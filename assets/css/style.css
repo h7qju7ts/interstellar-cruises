@@ -195,12 +195,7 @@ section h2 {
    
     
  }
-#bookings-form > button {
-    align-items: center;
-    color: white;
-    background-color: var(--primary-color);
-    text-transform: uppercase;
-}
+
 
 
 
@@ -373,10 +368,7 @@ body {
     
 }
 /* Bookings */
-#bookings-submit-btn {
-    width: 50%;
-    margin-left: 25%;
-}
+
 
 
 .bottom-paragraph {
