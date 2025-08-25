@@ -112,6 +112,7 @@ section h2 {
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
+    padding: 0;
 }
 
 #contact .social-links i:hover {
@@ -402,13 +403,35 @@ body {
      font-size: 1.2rem;
     
 }
-#contact-info {
-    margin-top: 2.5rem;
-    font-size:1.5rem;
-    margin-right: 12rem;
+/* Footer section */
+.social-links {
+    display: flex;
+  justify-content: space-between;
+}
+#contact {
+  padding: 0.5rem 0;   /* reduce top & bottom space */
 }
 
+#contact h2 {
+  margin-bottom: 0.5rem; /* tighten spacing */
+}
 
+#contact .social-links {
+  margin: 0.5rem 0; /* reduce top/bottom spacing */
+}
 
+#contact .social-links i {
+  font-size: 2rem; /* smaller icons */
+}
+
+#contact-info {
+  font-size: 1.5rem;  /* reduce text size */
+
+}
+
+#contact h2 {
+  margin: 0.5rem 0; /* tighten “Open all hours” */
+  font-size: 2.3rem;
+}
 
 }
