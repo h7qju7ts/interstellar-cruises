@@ -78,12 +78,29 @@
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="destinations" class="form-label">Destinations</label>
-                                <select class="form-select" id="destinations" size="3" aria-label="destinations" required>
-                                   
-                                   <option value="aquaterra">Aquaterra</option>
-                                   <option value="verdantia">Verdantia</option>
-                                   <option value="zephyria">Zephyria</option>
-                                </select>
+                                <!-- Dropdown button -->
+                             <div class="dropdown">
+                               <button class="btn custom-button-filled w-100 dropdown-toggle" 
+                                       type="button" 
+                                       id="destinationDropdown" 
+                                       data-bs-toggle="dropdown" 
+                                       data-bs-display="static" 
+                                       aria-expanded="false">
+                                 Select Destination
+                               </button>
+                               <ul class="dropdown-menu w-100" aria-labelledby="destinationDropdown">
+                                 <li><a class="dropdown-item" href="#" data-value="aquaterra">Aquaterra</a></li>
+                                 <li><a class="dropdown-item" href="#" data-value="verdantia">Verdantia</a></li>
+                                 <li><a class="dropdown-item" href="#" data-value="zephyria">Zephyria</a></li>
+                               </ul>
+                             </div>
+
+                            <!-- Hidden input to actually submit value with form -->
+                            <input type="hidden" name="destination" id="destinationInput" required>
+                          <!-- Feedback for validation -->
+                             <div class="invalid-feedback">
+                               Please select a destination.
+                             </div>
                             </div>
                         </div>
                       <button type="submit" class="custom-button-filled mb-3">Book inquiry</button>
@@ -153,6 +170,39 @@
                     }
                 });
             });
+        const dropdownItems = document.querySelectorAll("#destinationDropdown + .dropdown-menu .dropdown-item");
+        const dropdownButton = document.getElementById("destinationDropdown");
+        const hiddenInput = document.getElementById("destinationInput");
+        const form = document.getElementById("bookings-form");
+
+        dropdownItems.forEach(item => {
+          item.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      // Get selection
+            const selectedText = this.textContent;
+            const selectedValue = this.getAttribute("data-value");
+
+      // Update button label
+      dropdownButton.textContent = selectedText;
+
+      // Update hidden input value
+      hiddenInput.value = selectedValue;
+
+      // Remove error state if previously invalid
+      hiddenInput.setCustomValidity("");
+      hiddenInput.classList.remove("is-invalid");
+     });
+    });
+
+  // Validate hidden input on submit
+  form.addEventListener("submit", function (e) {
+    if (!hiddenInput.value) {
+      hiddenInput.setCustomValidity("Please select a destination");
+      hiddenInput.classList.add("is-invalid");
+      e.preventDefault(); // stop form from submitting
+     }
+    });
     </script>
 </body>
 </html>

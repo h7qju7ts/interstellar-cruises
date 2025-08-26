@@ -66,6 +66,8 @@ body {
 /* Bookings section */
 #bookings-form {
     font-weight: 450;
+     min-height: 390px; /* adjust as needed */
+     padding-bottom: 2rem;
 }
 
 section h2 {
