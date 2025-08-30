@@ -77,31 +77,33 @@
                                 <input class="form-control" id="phone" name="phone" type="number" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
-                                <label for="destinations" class="form-label">Destinations</label>
-                                <!-- Dropdown button -->
-                             <div class="dropdown">
-                               <button class="btn custom-button-filled w-100 dropdown-toggle" 
+                              <label for="destinationDropdown" class="form-label">Destinations</label>
+                              <!-- Dropdown button -->
+                              <div class="dropdown">
+                                <button class="btn custom-button-filled w-100 dropdown-toggle" 
                                        type="button" 
-                                       id="destinationDropdown" 
-                                       data-bs-toggle="dropdown" 
-                                       data-bs-display="static" 
-                                       aria-expanded="false">
+                                        id="destinationDropdown" 
+                                        data-bs-toggle="dropdown" 
+                                        data-bs-display="static" 
+                                        aria-expanded="false">
                                  Select Destination
-                               </button>
-                               <ul class="dropdown-menu w-100" aria-labelledby="destinationDropdown">
-                                 <li><a class="dropdown-item" href="#" data-value="aquaterra">Aquaterra</a></li>
-                                 <li><a class="dropdown-item" href="#" data-value="verdantia">Verdantia</a></li>
-                                 <li><a class="dropdown-item" href="#" data-value="zephyria">Zephyria</a></li>
-                               </ul>
-                             </div>
+                                </button>
+                                <ul class="dropdown-menu w-100" aria-labelledby="destinationDropdown">
+                                  <li><a class="dropdown-item" href="#" data-value="aquaterra">Aquaterra</a></li>
+                                  <li><a class="dropdown-item" href="#" data-value="verdantia">Verdantia</a></li>
+                                  <li><a class="dropdown-item" href="#" data-value="zephyria">Zephyria</a></li>
+                                </ul>
+                              </div>
 
-                            <!-- Hidden input to actually submit value with form -->
-                            <input type="hidden" name="destination" id="destinationInput" required>
-                          <!-- Feedback for validation -->
-                             <div class="invalid-feedback">
-                               Please select a destination.
-                             </div>
+                              <!-- Hidden input (no required here) -->
+                              <input type="hidden" name="destination" id="destinationInput">
+
+                              <!-- Feedback for validation -->
+                              <div class="invalid-feedback">
+                                Please select a destination.
+                              </div>
                             </div>
+
                         </div>
                       <button type="submit" class="custom-button-filled mb-3">Book inquiry</button>
                     </form>
