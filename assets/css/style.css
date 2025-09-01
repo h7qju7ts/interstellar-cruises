@@ -25,6 +25,7 @@
 
 #navbar .logo {
   width: 30px;
+  
 }
 body {
   max-width: 100%;
@@ -115,6 +116,10 @@ section h2 {
 }
 
 @media screen and (min-width: 342px) {
+    #navbar .logo {
+  width: 40px;
+  height: 40px;
+    }
   .main {
     display: flex;
     width: 100%;
