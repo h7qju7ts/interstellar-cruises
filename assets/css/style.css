@@ -25,6 +25,7 @@
 
 #navbar .logo {
   width: 30px;
+  height: 30px;
   
 }
 body {
@@ -307,6 +308,7 @@ section h2 {
   /* Nav bar */
   #navbar .logo {
     width: 70px;
+    height: 70px;
   }
 
   /* home page */
